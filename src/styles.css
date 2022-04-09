@@ -32,19 +32,22 @@ h3 {
 
 .body-class h1 {
   font-size: 64px;
-  font-family: var(--font);
+  line-height: 1.5;
 }
 
 .body-class h2 {
   color: #231d3c;
   font-size: 48px;
   font-family: var(--font);
+  line-height: 30px;
 }
 
 .body-class h3 {
   font-size: 24px;
   opacity: 0.7;
+  line-height: 1.5px;
 }
+
 .btn {
   background-color: var(--primary-color);
 }
@@ -89,6 +92,7 @@ p {
   text-decoration: none;
   text-transform: capitalize;
   display: inline;
+  line-height: 27px;
 }
 
 .col-md-6 {
@@ -98,7 +102,7 @@ p {
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
-    line-height: 1.5;
+    line-height: 2;
   }
   h2 {
     font-size: 32px;
