@@ -123,6 +123,9 @@ p {
     text-align: center;
     margin: 0, 20px;
   }
+  .body-class {
+    padding: 80px 20px;
+  }
 }
 
 .fw-icon {
